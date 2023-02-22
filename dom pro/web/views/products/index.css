@@ -1,0 +1,27 @@
+html, body, .main {
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main .topbar {
+  height: 50px;
+  background-color: yellow;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.main .box {
+  flex: 1;
+  padding-top: 50px;
+}
+
+#carouselExampleCaptions {
+  height: 100%;
+}

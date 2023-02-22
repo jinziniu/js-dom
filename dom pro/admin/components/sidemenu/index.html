@@ -1,0 +1,69 @@
+
+<ul class="nav flex-column" style="margin-top:10px;">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="/admin//views/home/index.html" id="sidemenu-home">home</a>
+    </li>
+    <li class="nav-item user-manage-item">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#user-manage" aria-expanded="true" aria-controls="collapseOne">
+                        user-manage
+                    </button>
+                </h2>
+                <div id="user-manage" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a class="nav-link active" aria-current="page" href="/admin/views/user-manage/AddUsers/index.html" id="sidemenu-addUser">add</a>
+                        <a class="nav-link active" aria-current="page" href="/admin/views/user-manage/UserList/index.html" id="sidemenu-userList">user list</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </li>
+    <li class="nav-item">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#news-manage" aria-expanded="true" aria-controls="collapseOne">
+                        news-manage
+                    </button>
+                </h2>
+                <div id="news-manage" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <a class="nav-link active" aria-current="page" href="/admin/views/news-manage/CreateNews/index.html" id="sidemenu-addNews">create news</a>
+                        <a class="nav-link active" aria-current="page" href="/admin/views/news-manage/NewsList/index.html" id="sidemenu-newsList">NewsList</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </li>
+
+</ul>
+
+
+<style>
+    .accordion-button:not(.collapsed) {
+        color: black;
+        background-color:white;
+        box-shadow: none;
+    }
+    .accordion-item{
+        border:0;
+    }
+
+    .accordion-button:focus{
+        box-shadow: none;
+    }
+
+    .nav-link{
+        color:black;
+    }
+</style>

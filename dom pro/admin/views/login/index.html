@@ -1,0 +1,37 @@
+<!--
+ * @作者: kerwin
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/admin/lib/css/bootstrap.css">
+    <script src="/admin/lib/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="logincontainer">
+        <h2>WEB Manage</h2>
+        <form id="loginform">
+            <div class="mb-3">
+                <label for="username" class="form-label">User name</label>
+                <input type="text" class="form-control" id="username" aria-describedby="emailHelp" required>
+                
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">password</label>
+                <input type="password" class="form-control" id="password" required>
+            </div>
+            <button type="submit" class="btn btn-primary">login</button>
+
+            <div id="loginwarning" class="form-text" style="display: none;color:red;">not match</div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
